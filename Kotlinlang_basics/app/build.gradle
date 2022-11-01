@@ -29,6 +29,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    namespace 'in.mudits02.kotlinlang_basics'
 }
 
 dependencies {
