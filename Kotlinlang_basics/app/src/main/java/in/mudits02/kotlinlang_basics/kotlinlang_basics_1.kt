@@ -73,4 +73,10 @@ fun main()
         y += 2
     }
 
+    var nums = 0
+    for(nums in 0..10)
+    {
+        println("$nums")
+    }
+
 }
