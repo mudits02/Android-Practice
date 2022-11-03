@@ -1,4 +1,10 @@
 package `in`.mudits02.kotlinlang_basics
+import java.util.Scanner
+
+fun addition(a : Int , b : Int) : Int
+{
+    return a + b
+}
 
 fun main()
 {
@@ -88,5 +94,15 @@ fun main()
     {
         println("$i")
     }
+
+    var number1 = 18
+    var number2 = 21
+
+
+    var answer = addition(number1 , number2)
+
+    println(answer)
+
+
 
 }
