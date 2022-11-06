@@ -12,6 +12,8 @@ fun main()
     println(len)
     println(len_check)
 
+    println("Concept of Nullability")
+
     /*
     Basically Line 11 means
 
