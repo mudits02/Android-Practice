@@ -12,8 +12,9 @@ fun main()
     println(len)
     println(len_check)
 
-    println("Concept of Nullability")
-
+    check?.let {println(it.length)}
+    //The above line makes he nullable be printed in the new format
+    //'?' is basically the safe call operator which checks if the value is Null or not
     /*
     Basically Line 11 means
 
