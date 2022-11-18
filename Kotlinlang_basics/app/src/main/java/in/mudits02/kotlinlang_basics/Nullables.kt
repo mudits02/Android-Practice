@@ -28,6 +28,19 @@ fun main()
             }
 
      */
+    //Elvis Operator -> null containing variable name ?: Statement to be printed
+    /*
+        Elvis Operator does the folllowing
+        if(variable == null)
+        {
+            print the statement after ?:
+        }
+        else do the default thing
+     */
+    var mudit : String?
+    mudit = null
+    val name_guest = mudit ?: "Guest"
+    println("Name is $name_guest")
 
 
 
