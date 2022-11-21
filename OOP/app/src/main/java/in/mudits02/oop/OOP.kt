@@ -4,3 +4,5 @@ fun main()
 {
 
 }
+class person
+
