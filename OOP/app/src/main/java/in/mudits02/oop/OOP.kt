@@ -13,17 +13,21 @@ fun main()
 class Person (firstName : String = "New" , lastName : String = "Player")
 {
     var age : Int? = null
-    var name_first : String = firstName
+    var firstName : String? = null
     var hobby : String = "Wander around"
     init {
+        this.firstName = firstName
         println("Class created")
         //println("Used init to initialize the object")
         println("The created class are" + "firstName = $firstName and lastName = $lastName")
+
     }
+
+    //constructor(firstName)
 
     fun stateHobby()
     {
-        println("$name_first's hobby is $hobby")
+        println("$firstName's hobby is $hobby")
     }
 }
 
