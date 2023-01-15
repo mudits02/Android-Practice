@@ -10,6 +10,8 @@ package `in`.mudits02.datastructures
     Open keyword -> in Kotlin we need to manually make the class inheritable by using keyword called open
  */
 
+    //Next will be the app , the age in minutes app
+
 fun main()
 {
     // addition of two numbers using lambda function
