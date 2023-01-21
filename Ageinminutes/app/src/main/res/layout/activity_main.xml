@@ -43,7 +43,7 @@
         android:textSize="30sp"
         android:textStyle="bold" />
     <Button
-        android:id="@id/textView"
+        android:id="@+id/btnDatePicker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="SELECT DATE"
@@ -52,7 +52,7 @@
         android:textColor="@color/white"/>
 
     <TextView
-        android:id="@id/textView"
+        android:id="@+id/SelectedDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
